@@ -1,0 +1,16 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+:root{
+    
+}
+
+#container{
+    display: flex;
+}
+
