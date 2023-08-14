@@ -3,14 +3,118 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 :root{
     
 }
 
-#container{
+.container{
     display: flex;
+    flex: 1;
+    width: clamp(350, 80vw, 800);
 }
 
+#sign-up{
+    height: 33vh;
+    padding: 28px;
+}
+
+#flexcontainer{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    
+    gap: 35px;
+}
+
+#background-pic-container{
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-up-container{
+    width: 60vw;
+}
+
+#dj{
+    width: 40vw;
+    height: 100vh;
+}
+
+#lets-golf{
+    position: absolute;
+    text-align: center;
+    opacity: 1;
+    height: 30vh;
+
+}
+
+.golf-div{
+    display: flex;
+    position: absolute;
+    width: 40vw;
+    background: black;
+    opacity: 0.6;
+    height: 30vh;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+#top-description{
+    height: 33vh;
+    background-color: rgb(237, 236, 236);
+    display: flex;
+    padding: 28px;
+    align-items: center;
+    font-size: 52px;
+}
+
+#create-log-in{
+    height: 33vh;
+    background-color: rgb(237, 236, 236);
+    padding: 28px;
+}
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#create-account{
+    font-size: 28px;
+    background-color: rgb(255, 174, 0);
+    border: 1px solid;
+    width: 240px;
+    height: 65px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+label{
+    font-size: 24px;
+}
+
+input{
+    height: 35px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+#account{
+    padding-top: 25px;
+    font-size: 28px;
+}
+
+#sign-up-header{
+    font-size: 52px;
+    padding-bottom: 25px;
+}
