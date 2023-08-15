@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,8 +17,15 @@ body{
     width: clamp(350, 80vw, 800);
 }
 
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 #sign-up{
-    height: 33vh;
+    flex: 1;
     padding: 28px;
 }
 
@@ -34,12 +42,15 @@ body{
     width: 40vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 #sign-up-container{
     width: 60vw;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;
 }
 
 #dj{
@@ -49,27 +60,33 @@ body{
 
 #lets-golf{
     position: absolute;
-    text-align: center;
     opacity: 1;
-    height: 30vh;
+    height: 20vh;
+}
 
+.golf-container{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    align-items: flex-end;
 }
 
 .golf-div{
     display: flex;
     position: absolute;
     width: 40vw;
-    background: black;
-    opacity: 0.6;
-    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.4);
     
+    height: 20vh;
     justify-content: center;
-    align-items: center;
+    flex: 1;
+    
 }
 
 
 #top-description{
-    height: 33vh;
+    flex: 1;
     background-color: rgb(237, 236, 236);
     display: flex;
     padding: 28px;
@@ -78,7 +95,7 @@ body{
 }
 
 #create-log-in{
-    height: 33vh;
+    flex: 1;
     background-color: rgb(237, 236, 236);
     padding: 28px;
 }
@@ -91,7 +108,7 @@ body{
 
 #create-account{
     font-size: 28px;
-    background-color: rgb(255, 174, 0);
+    background-color: rgb(255, 183, 27);
     border: 1px solid;
     width: 240px;
     height: 65px;
@@ -118,3 +135,4 @@ input{
     font-size: 52px;
     padding-bottom: 25px;
 }
+
