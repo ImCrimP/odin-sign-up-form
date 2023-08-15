@@ -136,3 +136,6 @@ input{
     padding-bottom: 25px;
 }
 
+input:focus{
+    border: 1px solid blue;
+}
