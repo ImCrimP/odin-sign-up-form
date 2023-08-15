@@ -14,7 +14,7 @@ body{
 .container{
     display: flex;
     flex: 1;
-    width: clamp(350, 80vw, 800);
+    
 }
 
 form{
