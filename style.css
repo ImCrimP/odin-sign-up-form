@@ -67,7 +67,7 @@ form{
 .golf-container{
     display: flex;
     position: absolute;
-    width: 100vw;
+    width: 40vw;
     height: 50vh;
     align-items: flex-end;
 }
@@ -118,9 +118,11 @@ form{
 
 label{
     font-size: 24px;
+    
 }
 
 input{
+    display: block;
     height: 35px;
     font-size: 24px;
     border-radius: 5px;
